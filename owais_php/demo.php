@@ -2,6 +2,7 @@
 if(isset($_POST['user_submit'])){
  $email = $_POST['email'];
  $password =$_POST['password'];
+ //this is a demo comment for git checking
 
 //  $pdo->setAttribute();
 $query = $pdo->prepare("INSERT INTO `users`( `email`, `password`) VALUES (:em,:ps)");
